@@ -88,9 +88,9 @@ Below is a comparison of major commercial SaaS platforms providing inactive user
 
 Open-source identity, access, and directory management projects provide full transparent control over identity lifecycles, user deactivation, and data archiving pipelines without commercial vendor lock-in. 🔓🚀
 
-The table below is **sorted by GitHub Stars (descending)**. Every repository star badge links directly to its live stargazers page. ⭐✨
+The table below is **sorted by GitHub_Stars (descending)**. Every repository Stars_Badge links directly to its live stargazers page. ⭐✨
 
-| Repository | GitHub Stars Badge | Primary Language / License | Core Focus & Offboarding / Archiving Features |
+| Repository | GitHub_Stars_Badge | Primary Language / License | Core Focus & Offboarding / Archiving Features |
 | :--- | :--- | :--- | :--- |
 | **[Keycloak](https://github.com/keycloak/keycloak)** | [![Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | Java <br> `Apache-2.0` | Leading open-source Identity & Access Management (IAM). Provides robust Admin REST APIs, event listener SPIs, and user federation (LDAP/AD) to trigger immediate user disablement, credential revocation, and downstream webhooks upon offboarding. 🗝️ |
 | **[Authentik](https://github.com/goauthentik/authentik)** | [![Stars](https://img.shields.io/github/stars/goauthentik/authentik?style=social&color=white)](https://github.com/goauthentik/authentik/stargazers) | Python / Go <br> `GPL-3.0` | Modern, modular open-source Identity Provider. Features customizable event-driven execution flows, stage bindings, and SCIM provider integrations to deprovision accounts, terminate active sessions, and execute cleanup scripts upon employee termination. 🛡️ |
@@ -144,7 +144,7 @@ Contributions are welcome! Please follow these steps to propose new SaaS tools, 
 2. Create your feature branch (`git checkout -b feature/add-new-tool`). 🌿
 3. Add the project to the appropriate section:
    - For **SaaS platforms**: Include product name, URL, valuation/revenue metric, specific starting price, and exact free tier/trial limits in the table format.
-   - For **Open-Source projects**: Include repository name, direct GitHub link, stargazers badge (`style=social&color=white`), license, and specific offboarding capabilities. Ensure it is sorted by star count.
+   - For **Open-Source projects**: Include repository name, direct GitHub link, stargazers badge (`style=social&color=white`), license, and specific offboarding capabilities. Ensure it is sorted by Stars_Count.
 4. Commit your changes (`git commit -m 'Add ToolName to offboarding guide'`). 📝
 5. Push to the branch (`git push origin feature/add-new-tool`) and open a Pull Request. 🚀
 
